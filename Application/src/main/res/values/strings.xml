@@ -5,10 +5,8 @@
     <string name="title_section1">Home</string>
     <string name="title_section2">Schedule</string>
     <string name="title_section3">Contact</string>
-    <string name="content_section1">"This is my description!ljds;lkghkjaflkasd\n" +
-                    ";alsdfjalks;djflkhleoasnlkja\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n" +
-                    "a;ldskfaiewjfpoasdj;lkgajslkhaslkfdj\n\n\n\n\n\n\n\n am I at the bottom yet?"
-            + "\n\n\n\n\n\n\n\n\n\n\n;alsjdf;laksjd;lfajds"</string>
-    <string name="main_content">Small Text</string>
+    <string name="content_section1"></string>
+    <string name="main_content">Leverage some existing tools, frameworks, IT expertise and mobile
+        application development data to build a Cisco Mobile App Framework.<a href="http://www.google.com">link</a></string>
 
 </resources>
