@@ -5,6 +5,8 @@
     <string name="title_section1">Home</string>
     <string name="title_section2">Schedule</string>
     <string name="title_section3">Contact</string>
+    <string name="title_section4">Map</string>
+    <string name="title_section5">Check In</string>
     <string name="content_section1"></string>
     <string name="main_content">Leverage some existing tools, frameworks, IT expertise and mobile
         application development data to build a Cisco Mobile App Framework.<a href="http://www.google.com">link</a></string>
