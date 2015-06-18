@@ -215,15 +215,23 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
-            View rootView = inflater.inflate(R.layout.fragment_main_dummy, container, false);
-            TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
-            dummyTextView.setText(Integer.toString(4 * getArguments().getInt(ARG_SECTION_NUMBER)));
-            TextView dummyImageView = (TextView) rootView.findViewById(R.id.label2);
-            dummyImageView.setText(R.string.content_section1);
-            if (getArguments().getInt(ARG_SECTION_NUMBER) != 1){
-                ImageView mypicture = (ImageView) rootView.findViewById(R.id.mypicture);
-                mypicture.setVisibility(View.INVISIBLE);
+            int panelNumber = getArguments().getInt((ARG_SECTION_NUMBER));
+            View rootView;
+            if(panelNumber == 2){
+                rootView = inflater.inflate(R.layout.fragment_schedule, container, false);
+//                TextView tv = (TextView) rootView.findViewById(R.id.exampleTextView);
+//                tv.setText("This is where the schedule goes");
+            } else {
+                rootView = inflater.inflate(R.layout.fragment_main_dummy, container, false);
+//                TextView tv = (TextView) rootView.findViewById(R.id.section_label);
+//                tv.setText(panelNumber);
             }
+//            TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
+//            dummyTextView.setText(Integer.toString(4 * getArguments().getInt(ARG_SECTION_NUMBER)));
+//            if (getArguments().getInt(ARG_SECTION_NUMBER) != 1){
+//                ImageView mypicture = (ImageView) rootView.findViewById(R.id.mypicture);
+//                mypicture.setVisibility(View.INVISIBLE);
+//            }
             return rootView;
         }
     }

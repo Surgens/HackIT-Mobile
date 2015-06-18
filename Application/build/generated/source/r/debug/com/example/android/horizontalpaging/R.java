@@ -286,11 +286,11 @@ containing a value of this type.
         public static final int clip_horizontal=0x7f080008;
         public static final int clip_vertical=0x7f080009;
         public static final int end=0x7f08000a;
+        public static final int exampleTextView=0x7f080014;
         public static final int fill=0x7f08000b;
         public static final int fill_horizontal=0x7f08000c;
         public static final int fill_vertical=0x7f08000d;
         public static final int horizontal=0x7f080000;
-        public static final int label2=0x7f080014;
         public static final int left=0x7f08000e;
         public static final int mypicture=0x7f080012;
         public static final int pager=0x7f080015;
@@ -302,7 +302,8 @@ containing a value of this type.
     }
     public static final class layout {
         public static final int fragment_main_dummy=0x7f030000;
-        public static final int sample_main=0x7f030001;
+        public static final int fragment_schedule=0x7f030001;
+        public static final int sample_main=0x7f030002;
     }
     public static final class string {
         public static final int action_settings=0x7f060000;
