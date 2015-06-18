@@ -219,10 +219,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
             dummyTextView.setText(Integer.toString(4 * getArguments().getInt(ARG_SECTION_NUMBER)));
             TextView dummyImageView = (TextView) rootView.findViewById(R.id.label2);
-            dummyImageView.setText("This is my description!ljds;lkghkjaflkasd\n" +
-                    ";alsdfjalks;djflkhleoasnlkja\n\n\n\n\n" +
-                    "a;ldskfaiewjfpoasdj;lkgajslkhaslkfdj\n\n\n\n\n\n\n\n am I at the bottom yet?"
-            + "\n\n\n\n\n\n\n\n\n\n\n;alsjdf;laksjd;lfajds");
+            dummyImageView.setText(R.string.content_section1);
             if (getArguments().getInt(ARG_SECTION_NUMBER) != 1){
                 ImageView mypicture = (ImageView) rootView.findViewById(R.id.mypicture);
                 mypicture.setVisibility(View.INVISIBLE);
