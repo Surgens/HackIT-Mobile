@@ -56,6 +56,7 @@
     </string>
     <!-- From: file:/C:/Users/phwhitin/AndroidStudioProjects/HackIT-Mobile/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
+    <string name="main_content">Small Text</string>
     <string name="title_section1">Home</string>
     <string name="title_section2">Schedule</string>
     <string name="title_section3">Contact</string>
