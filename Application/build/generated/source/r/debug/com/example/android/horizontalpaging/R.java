@@ -286,7 +286,6 @@ containing a value of this type.
         public static final int clip_horizontal=0x7f080008;
         public static final int clip_vertical=0x7f080009;
         public static final int end=0x7f08000a;
-        public static final int exampleTextView=0x7f080015;
         public static final int fill=0x7f08000b;
         public static final int fill_horizontal=0x7f08000c;
         public static final int fill_vertical=0x7f08000d;
@@ -295,6 +294,7 @@ containing a value of this type.
         public static final int mypicture=0x7f080012;
         public static final int pager=0x7f080016;
         public static final int right=0x7f08000f;
+        public static final int score_table=0x7f080015;
         public static final int section_label=0x7f080013;
         public static final int start=0x7f080010;
         public static final int textView=0x7f080014;

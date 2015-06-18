@@ -53,8 +53,21 @@
     </string>
     <!-- From: file:/C:/Users/phwhitin/AndroidStudioProjects/HackIT-Mobile/Application/src/main/res/values/strings.xml -->
     <eat-comment/>
-    <string name="main_content">Leverage some existing tools, frameworks, IT expertise and mobile
-        application development data to build a Cisco Mobile App Framework.<a href="http://www.google.com">link</a></string>
+    <string name="main_content">
+
+        HackIT hackathons are a catalyst for
+        innovation and strive to spark a moment of creativity for the
+        sake of technology. They provide an atmosphere of thinking and
+        concentration that allows individuals to take relevant business
+        problems and go about solving them in a 24-hour period. Starting
+        from the bare bones of an idea, the participants form teams and
+        work through the night seeing it through to the end. At the end
+        of the event, participants have the opportunity to present his
+        or hers work to a distinguished panel of judges. Business-relevant
+        exemplary ideas have the added benefit of possibly being
+        implemented beyond the HackIT.
+
+    </string>
     <string name="title_section1">Home</string>
     <string name="title_section2">Schedule</string>
     <string name="title_section3">Contact</string>

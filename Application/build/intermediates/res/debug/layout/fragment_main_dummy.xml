@@ -1,6 +1,6 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<!--ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"-->
 
     <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
         xmlns:tools="http://schemas.android.com/tools"
@@ -15,7 +15,7 @@
         <ImageView
             android:id="@+id/mypicture"
             android:layout_width="fill_parent"
-            android:layout_height="250dp"
+            android:layout_height="150dp"
             android:src="@drawable/hackit_logo"
             />
         <TextView
@@ -31,10 +31,8 @@
             android:text="@string/main_content"
             android:id="@+id/textView"
             android:layout_below="@+id/mypicture"
-            android:layout_alignParentBottom="true"
             android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true"
-            android:layout_toEndOf="@+id/section_label" />
+            android:layout_alignParentEnd="true" />
 
     </RelativeLayout>
-</ScrollView><!-- From: file:/C:/Users/phwhitin/AndroidStudioProjects/HackIT-Mobile/Application/src/main/res/layout/fragment_main_dummy.xml -->
+<!--/ScrollView--><!-- From: file:/C:/Users/phwhitin/AndroidStudioProjects/HackIT-Mobile/Application/src/main/res/layout/fragment_main_dummy.xml -->

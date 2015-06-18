@@ -54,7 +54,6 @@ int id center_vertical 0x7f080007
 int id clip_horizontal 0x7f080008
 int id clip_vertical 0x7f080009
 int id end 0x7f08000a
-int id exampleTextView 0x7f080015
 int id fill 0x7f08000b
 int id fill_horizontal 0x7f08000c
 int id fill_vertical 0x7f08000d
@@ -63,6 +62,7 @@ int id left 0x7f08000e
 int id mypicture 0x7f080012
 int id pager 0x7f080016
 int id right 0x7f08000f
+int id score_table 0x7f080015
 int id section_label 0x7f080013
 int id start 0x7f080010
 int id textView 0x7f080014

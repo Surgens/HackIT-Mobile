@@ -234,8 +234,21 @@
             
         
         ]]>
-    </string><string name="app_name">DevNet Mobile Framework App</string></file><file path="C:\Users\phwhitin\AndroidStudioProjects\HackIT-Mobile\Application\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="C:\Users\phwhitin\AndroidStudioProjects\HackIT-Mobile\Application\src\main\res\values\strings.xml" qualifiers=""><string name="content_section1"/><string name="action_settings">Settings</string><string name="main_content">Leverage some existing tools, frameworks, IT expertise and mobile
-        application development data to build a Cisco Mobile App Framework.<a href="http://www.google.com">link</a></string><string name="title_section1">Home</string><string name="title_section3">Contact</string><string name="title_section2">Schedule</string></file><file path="C:\Users\phwhitin\AndroidStudioProjects\HackIT-Mobile\Application\src\main\res\values\template-dimens.xml" qualifiers=""><dimen name="margin_small">8dp</dimen><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="margin_tiny">4dp</dimen><dimen name="margin_large">32dp</dimen><dimen name="margin_huge">64dp</dimen><dimen name="margin_medium">16dp</dimen><dimen name="horizontal_page_margin">@dimen/margin_medium</dimen></file><file path="C:\Users\phwhitin\AndroidStudioProjects\HackIT-Mobile\Application\src\main\res\values\template-styles.xml" qualifiers=""><style name="Theme.Base" parent="android:Theme.Light"/><style name="Widget.SampleMessage">
+    </string><string name="app_name">DevNet Mobile Framework App</string></file><file path="C:\Users\phwhitin\AndroidStudioProjects\HackIT-Mobile\Application\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_vertical_margin">16dp</dimen><dimen name="activity_horizontal_margin">16dp</dimen></file><file path="C:\Users\phwhitin\AndroidStudioProjects\HackIT-Mobile\Application\src\main\res\values\strings.xml" qualifiers=""><string name="content_section1"/><string name="action_settings">Settings</string><string name="main_content">
+
+        HackIT hackathons are a catalyst for
+        innovation and strive to spark a moment of creativity for the
+        sake of technology. They provide an atmosphere of thinking and
+        concentration that allows individuals to take relevant business
+        problems and go about solving them in a 24-hour period. Starting
+        from the bare bones of an idea, the participants form teams and
+        work through the night seeing it through to the end. At the end
+        of the event, participants have the opportunity to present his
+        or hers work to a distinguished panel of judges. Business-relevant
+        exemplary ideas have the added benefit of possibly being
+        implemented beyond the HackIT.
+
+    </string><string name="title_section1">Home</string><string name="title_section3">Contact</string><string name="title_section2">Schedule</string></file><file path="C:\Users\phwhitin\AndroidStudioProjects\HackIT-Mobile\Application\src\main\res\values\template-dimens.xml" qualifiers=""><dimen name="margin_small">8dp</dimen><dimen name="vertical_page_margin">@dimen/margin_medium</dimen><dimen name="margin_tiny">4dp</dimen><dimen name="margin_large">32dp</dimen><dimen name="margin_huge">64dp</dimen><dimen name="margin_medium">16dp</dimen><dimen name="horizontal_page_margin">@dimen/margin_medium</dimen></file><file path="C:\Users\phwhitin\AndroidStudioProjects\HackIT-Mobile\Application\src\main\res\values\template-styles.xml" qualifiers=""><style name="Theme.Base" parent="android:Theme.Light"/><style name="Widget.SampleMessage">
         <item name="android:textAppearance">?android:textAppearanceMedium</item>
         <item name="android:lineSpacingMultiplier">1.1</item>
     </style><style name="AppTheme" parent="Theme.Sample"/><style name="Theme.Sample" parent="Theme.Base"/><style name="Widget"/><style name="Widget.SampleMessageTile">
