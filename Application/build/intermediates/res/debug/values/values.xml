@@ -69,7 +69,7 @@
         implemented beyond the HackIT.
 
     </string>
-    <string name="main_link_google">hackit.cisco.com</string>
+    <string name="main_image_link">http://hackit.cisco.com</string>
     <string name="title_section1">Home</string>
     <string name="title_section2">Schedule</string>
     <string name="title_section3">Contact</string>

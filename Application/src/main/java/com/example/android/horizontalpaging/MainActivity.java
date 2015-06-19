@@ -2,9 +2,7 @@ package com.example.android.horizontalpaging;
 
 import android.app.ActionBar;
 import android.app.FragmentTransaction;
-import android.graphics.drawable.Drawable;
 import android.net.Uri;
-import android.opengl.Visibility;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
@@ -14,11 +12,11 @@ import android.support.v4.view.ViewPager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
+import android.content.Intent;
 
 import java.util.Locale;
 
+@SuppressWarnings("deprecated")
 public class MainActivity extends FragmentActivity implements ActionBar.TabListener {
 
     /**
@@ -202,6 +200,16 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         // END_INCLUDE (fragment_pager_adapter_getpagetitle)
     }
 
+    public void goToHackit (View view) {
+        goToUrl(getString(R.string.main_image_link));
+    }
+
+    private void goToUrl (String url) {
+        Uri uriUrl = Uri.parse(url);
+        Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
+        startActivity(launchBrowser);
+    }
+
     /**
      * A dummy fragment representing a section of the app, but that simply displays dummy text.
      * This would be replaced with your application's content.
@@ -228,16 +236,9 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             } else if (panelNumber == 4) {
                 rootView = inflater.inflate(R.layout.fragment_map, container, false);
             } else {
-                if(panelNumber == 3){
-                    rootView = inflater.inflate(R.layout.fragment_contact, container, false);
-//                TextView tv = (TextView) rootView.findViewById(R.id.exampleTextView);
-//                tv.setText("This is where the schedule goes");
-                }
-                else {
-                    rootView = inflater.inflate(R.layout.fragment_main_dummy, container, false);
+                rootView = inflater.inflate(R.layout.fragment_main, container, false);
 //                TextView tv = (TextView) rootView.findViewById(R.id.section_label);
 //                tv.setText(panelNumber);
-                }
             }
 //            TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
 //            dummyTextView.setText(Integer.toString(4 * getArguments().getInt(ARG_SECTION_NUMBER)));
