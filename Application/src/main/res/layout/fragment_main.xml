@@ -17,6 +17,7 @@
             android:layout_width="fill_parent"
             android:layout_height="150dp"
             android:src="@drawable/hackit_logo"
+            android:onClick="goToHackit"
             />
 
         <TextView
@@ -30,18 +31,5 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:textAlignment="center"
-            android:layout_height="wrap_content"
-            android:textAppearance="?android:attr/textAppearanceSmall"
-            android:text="@string/main_link_google"
-            android:id="@+id/main_link"
-            android:layout_below="@+id/textView"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:autoLink="web"
-            android:linksClickable="true" />
-
     </RelativeLayout>
-<!--/ScrollView--><!-- From: file:/C:/Users/phwhitin/AndroidStudioProjects/HackIT-Mobile/Application/src/main/res/layout/fragment_main_dummy.xml -->
+<!--/ScrollView-->

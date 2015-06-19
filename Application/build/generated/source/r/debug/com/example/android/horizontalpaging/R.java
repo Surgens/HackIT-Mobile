@@ -270,11 +270,12 @@ containing a value of this type.
         public static final int vertical_page_margin=0x7f05000c;
     }
     public static final class drawable {
-        public static final int hackit_logo=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
-        public static final int koala=0x7f020002;
-        public static final int penguins=0x7f020003;
-        public static final int tile=0x7f020004;
+        public static final int building5floor1=0x7f020000;
+        public static final int hackit_logo=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
+        public static final int koala=0x7f020003;
+        public static final int penguins=0x7f020004;
+        public static final int tile=0x7f020005;
     }
     public static final class id {
         public static final int alignBounds=0x7f080002;
@@ -291,20 +292,20 @@ containing a value of this type.
         public static final int fill_vertical=0x7f08000d;
         public static final int horizontal=0x7f080000;
         public static final int left=0x7f08000e;
-        public static final int main_link=0x7f080014;
         public static final int mypicture=0x7f080012;
-        public static final int pager=0x7f080016;
+        public static final int pager=0x7f080015;
         public static final int right=0x7f08000f;
-        public static final int score_table=0x7f080015;
+        public static final int score_table=0x7f080014;
         public static final int start=0x7f080010;
         public static final int textView=0x7f080013;
         public static final int top=0x7f080011;
         public static final int vertical=0x7f080001;
     }
     public static final class layout {
-        public static final int fragment_main_dummy=0x7f030000;
-        public static final int fragment_schedule=0x7f030001;
-        public static final int sample_main=0x7f030002;
+        public static final int fragment_main=0x7f030000;
+        public static final int fragment_map=0x7f030001;
+        public static final int fragment_schedule=0x7f030002;
+        public static final int sample_main=0x7f030003;
     }
     public static final class string {
         public static final int action_settings=0x7f060000;
@@ -312,7 +313,7 @@ containing a value of this type.
         public static final int content_section1=0x7f060002;
         public static final int intro_message=0x7f060003;
         public static final int main_content=0x7f060004;
-        public static final int main_link_google=0x7f060005;
+        public static final int main_image_link=0x7f060005;
         public static final int title_section1=0x7f060006;
         public static final int title_section2=0x7f060007;
         public static final int title_section3=0x7f060008;
