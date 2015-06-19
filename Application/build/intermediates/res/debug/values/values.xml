@@ -68,9 +68,12 @@
         implemented beyond the HackIT.
 
     </string>
+    <string name="main_link_google">hackit.cisco.com</string>
     <string name="title_section1">Home</string>
     <string name="title_section2">Schedule</string>
     <string name="title_section3">Contact</string>
+    <string name="title_section4">Map</string>
+    <string name="title_section5">Check In</string>
     <!-- From: file:/C:/Users/phwhitin/AndroidStudioProjects/HackIT-Mobile/Application/src/main/res/values/template-styles.xml -->
     <eat-comment/>
     <style name="AppTheme" parent="Theme.Sample"/>
