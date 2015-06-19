@@ -203,7 +203,8 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
     public void goToHackit (View view) {
         goToUrl(getString(R.string.main_image_link));
     }
-
+    public void goToFb (View view) {goToUrl(getString(R.string.fb_image_link));
+    }
     private void goToUrl (String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
@@ -242,6 +243,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                     rootView = inflater.inflate(R.layout.fragment_map, container, false);
                     break;
                 case 5:
+                    rootView = inflater.inflate(R.layout.checkin_page, container, false);
                     break;
             }
             /*if (panelNumber == 2) {
