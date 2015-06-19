@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TableRow android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView android:text="Name"
+            android:layout_width="30dp"
+            android:layout_column="0"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:layout_height="wrap_content" />
+        <TextView android:text="Phone"
+            android:layout_width="65dp"
+            android:layout_column="1"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+            >
+        </TextView>
+        <TextView android:text="Email"
+            android:layout_width="65dp"
+            android:layout_column="2"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            android:layout_height="wrap_content"
+          >
+        </TextView>
+    </TableRow>
+    <ScrollView android:layout_height="fill_parent">
+        <TableLayout android:id="@+id/score_table"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TableRow>
+                <TextView android:text="Steve"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="steve@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow android:orientation="vertical"
+                >
+                <TextView android:text="Phil"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Phil@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Charles"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Charles@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Sterling"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Sterling@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Kevin"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Kevin@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Mason"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Mason@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Anna"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Anna@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Hannah"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Hannah@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Jonathon"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Jon@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Mary"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Mary@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+            <TableRow>
+                <TextView android:text="Alexa"
+                    android:layout_width="30dp"
+                    android:layout_column="0"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="(919)555-5555"
+                    android:layout_width="65dp"
+                    android:layout_column="1"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+                <TextView android:text="Alexa@cisco.com"
+                    android:layout_width="65dp"
+                    android:layout_column="2"
+                    android:layout_weight="1"
+                    >
+                </TextView>
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</TableLayout>

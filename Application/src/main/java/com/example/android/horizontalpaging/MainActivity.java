@@ -228,9 +228,16 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
             } else if (panelNumber == 4) {
                 rootView = inflater.inflate(R.layout.fragment_map, container, false);
             } else {
-                rootView = inflater.inflate(R.layout.fragment_main_dummy, container, false);
+                if(panelNumber == 3){
+                    rootView = inflater.inflate(R.layout.fragment_contact, container, false);
+//                TextView tv = (TextView) rootView.findViewById(R.id.exampleTextView);
+//                tv.setText("This is where the schedule goes");
+                }
+                else {
+                    rootView = inflater.inflate(R.layout.fragment_main_dummy, container, false);
 //                TextView tv = (TextView) rootView.findViewById(R.id.section_label);
 //                tv.setText(panelNumber);
+                }
             }
 //            TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
 //            dummyTextView.setText(Integer.toString(4 * getArguments().getInt(ARG_SECTION_NUMBER)));
