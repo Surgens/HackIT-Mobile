@@ -8,7 +8,27 @@
     <string name="title_section4">Map</string>
     <string name="title_section5">Check In</string>
     <string name="content_section1"></string>
-    <string name="main_content">Leverage some existing tools, frameworks, IT expertise and mobile
-        application development data to build a Cisco Mobile App Framework.<a href="http://www.google.com">link</a></string>
+    <string name="main_content">
+
+        HackIT hackathons are a catalyst for
+        innovation and strive to spark a moment of creativity for the
+        sake of technology. They provide an atmosphere of thinking and
+        concentration that allows individuals to take relevant business
+        problems and go about solving them in a 24-hour period. Starting
+        from the bare bones of an idea, the participants form teams and
+        work through the night seeing it through to the end. At the end
+        of the event, participants have the opportunity to present his
+        or hers work to a distinguished panel of judges. Business-relevant
+        exemplary ideas have the added benefit of possibly being
+        implemented beyond the HackIT.
+
+    </string>
+    <string name="main_image_link">http://hackit.cisco.com</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

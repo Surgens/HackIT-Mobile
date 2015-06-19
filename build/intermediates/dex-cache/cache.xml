@@ -2,39 +2,39 @@
 <items version="2" >
 
     <item
-        jar="C:\Users\ssridha2\Desktop\HackIT\hackapp\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
-        <dex dex="C:\Users\ssridha2\Desktop\HackIT\hackapp\Application\build\intermediates\pre-dexed\debug\classes-de0d9e6e0a32b60243f7d195fd196ec56703f863.jar" />
-    </item>
-    <item
-        jar="C:\Users\ssridha2\Desktop\HackIT\hackapp\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
-        <dex dex="C:\Users\ssridha2\Desktop\HackIT\hackapp\Application\build\intermediates\pre-dexed\debug\classes-9200cd4335368f8c239decd13a451b66cce03d47.jar" />
-    </item>
-    <item
-        jar="C:\Users\ssridha2\Desktop\HackIT\hackapp\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
-        <dex dex="C:\Users\ssridha2\Desktop\HackIT\hackapp\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-7136ec1ea2f389f5ea6fdf893df1fe6e66072998.jar" />
-    </item>
-    <item
-        jar="C:\Users\ssridha2\Desktop\HackIT\hackapp\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\classes.jar"
-        jumboMode="false"
-        revision="22.0.1"
-        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
-        <dex dex="C:\Users\ssridha2\Desktop\HackIT\hackapp\Application\build\intermediates\pre-dexed\debug\classes-af1d4749bb13f11c3c0090bdff8023083aaa973f.jar" />
-    </item>
-    <item
-        jar="C:\Users\ssridha2\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
+        jar="C:\Users\sbrockwe\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.2\support-annotations-21.0.2.jar"
         jumboMode="false"
         revision="22.0.1"
         sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
-        <dex dex="C:\Users\ssridha2\Desktop\HackIT\hackapp\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-aefbf709dd8f1084ad391b52e7e81f02dccfbd36.jar" />
+        <dex dex="C:\Users\sbrockwe\Documents\HackIT\HackIT-Mobile\Application\build\intermediates\pre-dexed\debug\support-annotations-21.0.2-0ba71c683e8803e7ec048a3a51e96f0a7fb71c23.jar" />
+    </item>
+    <item
+        jar="C:\Users\sbrockwe\Documents\HackIT\HackIT-Mobile\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\libs\internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="C:\Users\sbrockwe\Documents\HackIT\HackIT-Mobile\Application\build\intermediates\pre-dexed\debug\internal_impl-21.0.2-93d91d7c78fae6ae7c32bedac983709a4717d1b6.jar" />
+    </item>
+    <item
+        jar="C:\Users\sbrockwe\Documents\HackIT\HackIT-Mobile\Application\build\intermediates\exploded-aar\com.android.support\cardview-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="C:\Users\sbrockwe\Documents\HackIT\HackIT-Mobile\Application\build\intermediates\pre-dexed\debug\classes-ed0b63896b88de6b3e1768b707ae28aab4dc036c.jar" />
+    </item>
+    <item
+        jar="C:\Users\sbrockwe\Documents\HackIT\HackIT-Mobile\Application\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="C:\Users\sbrockwe\Documents\HackIT\HackIT-Mobile\Application\build\intermediates\pre-dexed\debug\classes-5743bd78524961f4f3a692c7863716b049d0f2c8.jar" />
+    </item>
+    <item
+        jar="C:\Users\sbrockwe\Documents\HackIT\HackIT-Mobile\Application\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\21.0.2\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
+        <dex dex="C:\Users\sbrockwe\Documents\HackIT\HackIT-Mobile\Application\build\intermediates\pre-dexed\debug\classes-eefe1278e56c0b80a625a23de92a995b15e523f8.jar" />
     </item>
 
 </items>
