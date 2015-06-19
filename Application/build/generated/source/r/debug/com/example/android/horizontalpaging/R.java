@@ -286,39 +286,42 @@ containing a value of this type.
         public static final int center_vertical=0x7f080007;
         public static final int clip_horizontal=0x7f080008;
         public static final int clip_vertical=0x7f080009;
+        public static final int contact=0x7f080012;
         public static final int end=0x7f08000a;
         public static final int fill=0x7f08000b;
         public static final int fill_horizontal=0x7f08000c;
         public static final int fill_vertical=0x7f08000d;
         public static final int horizontal=0x7f080000;
         public static final int left=0x7f08000e;
-        public static final int mypicture=0x7f080012;
-        public static final int pager=0x7f080015;
+        public static final int mypicture=0x7f080014;
+        public static final int pager=0x7f080016;
         public static final int right=0x7f08000f;
-        public static final int score_table=0x7f080014;
+        public static final int score_table=0x7f080013;
         public static final int start=0x7f080010;
-        public static final int textView=0x7f080013;
+        public static final int textView=0x7f080015;
         public static final int top=0x7f080011;
         public static final int vertical=0x7f080001;
     }
     public static final class layout {
-        public static final int fragment_main=0x7f030000;
-        public static final int fragment_map=0x7f030001;
-        public static final int fragment_schedule=0x7f030002;
-        public static final int sample_main=0x7f030003;
+        public static final int fragment_contact=0x7f030000;
+        public static final int fragment_main=0x7f030001;
+        public static final int fragment_map=0x7f030002;
+        public static final int fragment_schedule=0x7f030003;
+        public static final int sample_main=0x7f030004;
     }
     public static final class string {
         public static final int action_settings=0x7f060000;
         public static final int app_name=0x7f060001;
         public static final int content_section1=0x7f060002;
-        public static final int intro_message=0x7f060003;
-        public static final int main_content=0x7f060004;
-        public static final int main_image_link=0x7f060005;
-        public static final int title_section1=0x7f060006;
-        public static final int title_section2=0x7f060007;
-        public static final int title_section3=0x7f060008;
-        public static final int title_section4=0x7f060009;
-        public static final int title_section5=0x7f06000a;
+        public static final int hello_blank_fragment=0x7f060003;
+        public static final int intro_message=0x7f060004;
+        public static final int main_content=0x7f060005;
+        public static final int main_image_link=0x7f060006;
+        public static final int title_section1=0x7f060007;
+        public static final int title_section2=0x7f060008;
+        public static final int title_section3=0x7f060009;
+        public static final int title_section4=0x7f06000a;
+        public static final int title_section5=0x7f06000b;
     }
     public static final class style {
         public static final int AppTheme=0x7f070000;

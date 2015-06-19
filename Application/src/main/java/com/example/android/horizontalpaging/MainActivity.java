@@ -204,6 +204,11 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         goToUrl(getString(R.string.main_image_link));
     }
 
+    /**
+     * Goes to the specified url.
+     *
+     * @param url
+     */
     private void goToUrl (String url) {
         Uri uriUrl = Uri.parse(url);
         Intent launchBrowser = new Intent(Intent.ACTION_VIEW, uriUrl);
@@ -227,8 +232,10 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         @Override
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
+
             int panelNumber = getArguments().getInt((ARG_SECTION_NUMBER));
             View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+
             switch (panelNumber) {
                 case 1:
                     break;
@@ -244,21 +251,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
                 case 5:
                     break;
             }
-            /*if (panelNumber == 2) {
-                rootView = inflater.inflate(R.layout.fragment_schedule, container, false);
-//                TextView tv = (TextView) rootView.findViewById(R.id.exampleTextView);
-//                tv.setText("This is where the schedule goes");
-            } else if (panelNumber == 4) {
-            } else {
-//                TextView tv = (TextView) rootView.findViewById(R.id.section_label);
-//                tv.setText(panelNumber);
-            }
-//            TextView dummyTextView = (TextView) rootView.findViewById(R.id.section_label);
-//            dummyTextView.setText(Integer.toString(4 * getArguments().getInt(ARG_SECTION_NUMBER)));
-//            if (getArguments().getInt(ARG_SECTION_NUMBER) != 1){
-//                ImageView mypicture = (ImageView) rootView.findViewById(R.id.mypicture);
-//                mypicture.setVisibility(View.INVISIBLE);
-//            }*/
+
             return rootView;
         }
     }
