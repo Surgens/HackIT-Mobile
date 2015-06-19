@@ -228,15 +228,28 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             int panelNumber = getArguments().getInt((ARG_SECTION_NUMBER));
-            View rootView;
-            if (panelNumber == 2) {
+            View rootView = inflater.inflate(R.layout.fragment_main, container, false);
+            switch (panelNumber) {
+                case 1:
+                    break;
+                case 2:
+                    rootView = inflater.inflate(R.layout.fragment_schedule, container, false);
+                    break;
+                case 3:
+                    rootView = inflater.inflate(R.layout.fragment_contact, container, false);
+                    break;
+                case 4:
+                    rootView = inflater.inflate(R.layout.fragment_map, container, false);
+                    break;
+                case 5:
+                    break;
+            }
+            /*if (panelNumber == 2) {
                 rootView = inflater.inflate(R.layout.fragment_schedule, container, false);
 //                TextView tv = (TextView) rootView.findViewById(R.id.exampleTextView);
 //                tv.setText("This is where the schedule goes");
             } else if (panelNumber == 4) {
-                rootView = inflater.inflate(R.layout.fragment_map, container, false);
             } else {
-                rootView = inflater.inflate(R.layout.fragment_main, container, false);
 //                TextView tv = (TextView) rootView.findViewById(R.id.section_label);
 //                tv.setText(panelNumber);
             }
@@ -245,7 +258,7 @@ public class MainActivity extends FragmentActivity implements ActionBar.TabListe
 //            if (getArguments().getInt(ARG_SECTION_NUMBER) != 1){
 //                ImageView mypicture = (ImageView) rootView.findViewById(R.id.mypicture);
 //                mypicture.setVisibility(View.INVISIBLE);
-//            }
+//            }*/
             return rootView;
         }
     }
